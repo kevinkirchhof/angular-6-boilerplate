@@ -1,0 +1,47 @@
+{
+  "name": "angular-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for a preset Angular 6 project working with setup local webpack server on port 4000 from a tempalte of Ultimate Angular.",
+  "repository": {
+    "url": "git@github.com:UltimateAngular/angular-fundamentals-seed.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "author": "Kevin Kirchhof, Ultimate Angular",
+  "dependencies": {
+    "@angular/common": "^6.1.3",
+    "@angular/compiler": "^6.1.3",
+    "@angular/core": "^6.1.3",
+    "@angular/forms": "^6.1.3",
+    "@angular/http": "^6.1.3",
+    "@angular/platform-browser": "^6.1.3",
+    "@angular/platform-browser-dynamic": "^6.1.3",
+    "@angular/router": "^6.1.3",
+    "reflect-metadata": "0.1.12",
+    "rxjs": "6.2.2",
+    "ts-helpers": "1.1.2",
+    "zone.js": "0.8.26"
+  },
+  "scripts": {
+    "prestart": "webpack --config vendor/webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@types/core-js": "2.5.0",
+    "@types/node": "10.7.1",
+    "angular2-template-loader": "0.6.2",
+    "awesome-typescript-loader": "5.2.0",
+    "chalk": "2.4.1",
+    "core-js": "2.5.7",
+    "json-server": "0.14.0",
+    "node-sass": "4.9.3",
+    "progress-bar-webpack-plugin": "1.11.0",
+    "raw-loader": "0.5.1",
+    "resolve-url-loader": "2.3.0",
+    "sass-loader": "7.1.0",
+    "typescript": "3.0.1",
+    "webpack": "4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "3.1.5"
+  }
+}
